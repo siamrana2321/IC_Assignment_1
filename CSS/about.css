@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Header */
+
+header {
+    height: 33px;
+}
+
+
+/* Navigation bar */
+
+nav {
+    background-color: rgb(0 0 0 / 65%);
+    height: 33px;
+}
+
+#name {
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+
+#CP {
+    display: inline-block;
+    width: 60%;
+}
+
+#CP ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CP ul li {
+    list-style: none;
+    margin: 0px 30px 0px 30px;
+}
+
+#CP ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#CP ul li:hover {
+    background-color: white;
+    border-radius: 3px;
+}
+
+#CP ul li a:hover {
+    color: black;
+}
+
+#talk1 {
+    display: inline-block;
+    width: 110px;
+    height: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    border: none;
+    border-radius: 10px;
+    float: right;
+    margin: 4px 20px 0px 0px;
+}
+
+#talk1:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Navigation bar End*/
+
+
+/* Header End */
+
+
+/* section */
+
+#about {
+    background-image: url('../Image/Pic.PNG');
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+#about h1 {
+    font-size: 55px;
+    background-color: rgba(29, 28, 28, 0.459);
+    border-radius: 5px;
+}
+
+
+/* section End*/
+
+
+/* Main  */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+main .box {
+    width: 20%;
+    margin-left: 30px;
+    text-align: center;
+    height: 80%;
+    border: 2px solid rgba(53, 50, 50, 0.788);
+    border-radius: 5px;
+}
+
+main .box h1 {
+    color: rgba(0, 47, 255, 0.747);
+    font-size: 40px;
+}
+
+main .box h3,
+main .box li,
+main .box p {
+    font-size: 20px;
+}
+
+main .box li {
+    list-style: none;
+}
+
+
+/* Main ends */
+
+
+/* Footer */
+
+footer {
+    background-color: rgba(1, 90, 255, 0.81);
+    color: white;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer End  */
